@@ -1,0 +1,166 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+.logo {
+    color: #4D5AE5;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+        
+}
+
+.logo-dark {
+    color: #2E2F42;  
+}
+
+.link-nav {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.link-nav:hover {
+    color: #404BBF;
+}
+
+
+.link-nav:focus {
+    color: #404BBF;
+
+}
+
+.page-address {
+    font-style: normal;
+}
+
+.link-address {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: normal;
+    letter-spacing: 0.02em;
+    
+      
+}
+
+.link-address:focus {
+    color: #404BBF;
+}
+
+.link-address:hover {
+    color: #404BBF;
+}
+
+.link-address .link:active {
+    color: #404BBF;
+}
+
+
+.hero {
+    background-color: #2E2F42;
+}
+
+.page-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    text-align: center;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+        
+}
+
+.button {
+    color: #FFFFFF;
+    background-color: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.04em;
+    
+}
+
+.button:focus {
+    background-color: #404BBF;
+}
+
+.button:hover {
+    background-color: #404BBF;
+}
+
+.section-title {
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+        
+}
+
+.title {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em
+        
+}
+
+.submenu-card {
+    background-color: #FFFFFF
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+        
+}
+
+
+.card {
+    background-color: #F4F4FD;
+}
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.text-footer {
+    color: #F4F4FD;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.logo-white {
+    color: #F4F4FD;
+    
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
