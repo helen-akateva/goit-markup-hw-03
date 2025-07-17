@@ -11,12 +11,44 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  outline: solid red;
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
-.text {
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.header {
+  padding: 24px 0;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+}
+.list-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+  margin-left: 76px;
+  margin-right: 332px;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
+}
+
+.list-address {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
 }
 
 .logo {
@@ -36,15 +68,11 @@ body {
 .link-nav {
   color: #2e2f42;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.link-nav:hover {
-  color: #404bbf;
-}
-
+.link-nav:hover,
 .link-nav:focus {
   color: #404bbf;
 }
@@ -56,16 +84,15 @@ body {
 .link-address {
   color: #434455;
   font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   font-style: normal;
   letter-spacing: 0.02em;
 }
-
-.link-address:focus {
-  color: #404bbf;
+ 
+.tel {
+  margin-left: 35px;
 }
-
+.link-address:focus,
 .link-address:hover {
   color: #404bbf;
 }
@@ -98,10 +125,7 @@ body {
   letter-spacing: 0.04em;
 }
 
-.button:focus {
-  background-color: #404bbf;
-}
-
+.button:focus,
 .button:hover {
   background-color: #404bbf;
 }
@@ -192,4 +216,5 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 /* #endregion */
