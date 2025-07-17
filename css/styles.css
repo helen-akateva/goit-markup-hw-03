@@ -6,11 +6,11 @@ body {
 }
 
 .container {
-   max-width: 1158px;
-   padding-left: 15px;
-   padding-right: 15px;
-   margin-left: auto;
-   margin-right: auto;
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text {
@@ -73,7 +73,6 @@ body {
 .link-address .link:active {
   color: #404bbf;
 }
-
 
 .hero {
   background-color: #2e2f42;
@@ -158,5 +157,3 @@ body {
   white-space: nowrap;
   clip-path: inset(100%);
 }
-
-
