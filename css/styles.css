@@ -171,9 +171,7 @@ body {
   margin: 0 auto;
 }
 
-.btn {
-  margin-top: 48px;
-}
+
 .button:focus,
 .button:hover {
   background-color: #404bbf;
@@ -269,7 +267,7 @@ body {
 
 .card-content {
   padding-top: 32px;
-  padding-bottom: 32px;
+
 }
 
 .title-name {
@@ -292,7 +290,6 @@ body {
 }
 .item-portfolio {
   display: flex;
-  
   justify-content: center;
   flex-direction: column;
   gap: 8px;
