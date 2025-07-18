@@ -121,7 +121,7 @@ body {
   color: #404bbf;
 }
 
-.link-address .link:active {
+.link-address:active {
   color: #404bbf;
 }
 
@@ -304,6 +304,7 @@ body {
 
 .portfolio-list {
   margin-bottom: 8px;
+  text-align: start;
 }
 
 /* #endregion */
