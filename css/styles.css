@@ -23,6 +23,8 @@ body {
   padding-bottom: 120px;
 }
 
+/* #region Header */
+
 .header {
   padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
@@ -111,6 +113,10 @@ body {
   color: #404bbf;
 }
 
+/* #endregion */
+
+/* #region Hero */
+
 .hero {
   background-color: #2e2f42;
   display: block;
@@ -142,6 +148,10 @@ body {
 .button:hover {
   background-color: #404bbf;
 }
+/* #endregion */
+
+/* #region Feature */
+
 .list-feature {
   width: 1128px;
   display: flex;
@@ -199,6 +209,10 @@ body {
   background-color: #f4f4fd;
 }
 
+/* #endregion */
+
+/* #region Portfolio */
+
 .list-portfolio {
   display: flex;
   column-gap: 24px;
@@ -217,6 +231,10 @@ body {
   gap: 8px;
   width: calc((100% - 24px * 2) / 3);
 }
+
+/* #endregion */
+
+/* #region Footer */
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -246,10 +264,11 @@ body {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
 }
+
+/* #endregion */
 
 /* #region reset */
 
