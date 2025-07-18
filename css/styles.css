@@ -67,6 +67,11 @@ body {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
 }
 
 .logo-dark {
@@ -108,6 +113,7 @@ body {
 
 .hero {
   background-color: #2e2f42;
+  display: block;
 }
 
 .title-hero {
@@ -118,6 +124,8 @@ body {
   text-align: center;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  max-width: 496px;
+  margin-bottom: 48px;
 }
 
 .button {
@@ -167,7 +175,6 @@ body {
   letter-spacing: 0.02em;
 }
 .card-title {
- 
   padding-bottom: 72px;
 }
 .list-card {
@@ -180,11 +187,9 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: calc((100% - 32px * 3 ) / 4);
+  width: calc((100% - 32px * 3) / 4);
   margin-bottom: 120px;
   border-radius: 0 0 4px 4px;
- 
- 
 }
 
 .card-text {
@@ -206,24 +211,33 @@ body {
 }
 .item-portfolio {
   display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    gap: 8px;
-    width: calc((100% - 24px * 2 ) / 3);
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  width: calc((100% - 24px * 2) / 3);
 }
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
+  display: ;
 }
 
+.footer-container {
+  display: block;
+}
 .text-footer {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 .logo-white {
   color: #f4f4fd;
+}
+.logo-footer {
+  margin-bottom: 16px;
 }
 
 .visually-hidden {
