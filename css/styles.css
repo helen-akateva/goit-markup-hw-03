@@ -23,12 +23,9 @@ body {
   padding-bottom: 120px;
 }
 
-
-
-/* #region Header */  
+/* #region Header */
 
 .header {
- 
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -37,7 +34,6 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  
 }
 
 .list-nav {
@@ -47,9 +43,7 @@ body {
   flex-direction: row;
   gap: 40px;
   margin-right: 0;
-  
 }
-
 
 .page-nav {
   display: flex;
@@ -171,13 +165,11 @@ body {
   margin: 0 auto;
 }
 
-
 .button:focus,
 .button:hover {
   background-color: #404bbf;
 }
 /* #endregion */
-
 
 /* #region Feature */
 
@@ -207,7 +199,6 @@ body {
   flex-direction: column;
   width: calc((100% - 3 * 24px) / 4);
 }
-
 
 .section-title {
   color: #2e2f42;
@@ -267,7 +258,6 @@ body {
 
 .card-content {
   padding-top: 32px;
-
 }
 
 .title-name {
@@ -313,7 +303,6 @@ body {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
-  
 }
 
 .footer-container {
@@ -332,10 +321,7 @@ body {
 .logo-footer {
   margin-bottom: 16px;
   display: inline-block;
- 
 }
-
-
 
 /* #endregion */
 
